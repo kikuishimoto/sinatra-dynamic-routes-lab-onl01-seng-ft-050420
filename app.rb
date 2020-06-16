@@ -10,6 +10,9 @@ class App < Sinatra::Base
     "#{@value}"
   end
 
+  get '/say/:number/:phrase' do
+  end 
+
   # Write your code here!
 
 end
